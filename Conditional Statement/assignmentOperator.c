@@ -1,30 +1,27 @@
 #include <stdio.h>
 int main()
 {
-    int a = 5, c;
+    int a = 5, c=1;
 
-    c = a;      // c is 5
-    printf("c = %d\n", c);
+    
 
-
-    c += a;     // c is 10 
-    printf("c = %d\n", c);
     
     
-    c -= a;     // c is 5
-    printf("c = %d\n", c);
+    
+    c -= a;     // c is -4 c=c-a
+    printf("Amar biyogfol hocce c = %d\n");
     
     
-    c *= a;     // c is 25
-    printf("c = %d\n", c);
+    // c *= a;     // c is  c = c*a
+    // printf("c = %d\n", c);
     
     
-    c /= a;     // c is 5
-    printf("c = %d\n", c);
+    // c /= a;     // c is   c = c/a
+    // printf("c = %d\n", c);
     
     
-    c %= a;     // c = 0
-    printf("c = %d\n", c);
+    // c %= a;     // c = c%a
+    // printf("c = %d\n", c);
 
     return 0;
 }

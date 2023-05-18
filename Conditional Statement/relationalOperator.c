@@ -1,42 +1,16 @@
 #include <stdio.h>
 int main()
 {
-    int a = 4, b = 4, c = 20;
+    int a=10, b=20;
 
-    printf("%d == %d is %d \n", a, b, a == b);
+    // int ans = a<b; // 10 < 20 ==> 1 (True)
+    // True 1 
+    // False 0 
+
+    int ans = a==b; // 10 == 20 ==> 0 (False)
 
 
-    printf("%d == %d is %d \n", a, c, a == c);
-    
-    
-    printf("%d > %d is %d \n", a, b, a > b);
-    
-    
-    printf("%d > %d is %d \n", a, c, a > c);
-    
-    
-    printf("%d < %d is %d \n", a, b, a < b);
-    
-    
-    printf("%d < %d is %d \n", a, c, a < c);
-    
-    
-    printf("%d != %d is %d \n", a, b, a != b);
-    
-    
-    printf("%d != %d is %d \n", a, c, a != c);
-    
-    
-    printf("%d >= %d is %d \n", a, b, a >= b);
-    
-    
-    printf("%d >= %d is %d \n", a, c, a >= c);
-    
-    
-    printf("%d <= %d is %d \n", a, b, a <= b);
-    
-    
-    printf("%d <= %d is %d \n", a, c, a <= c);
+    printf("%d\n",ans);
 
     return 0;
 }
